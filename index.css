@@ -1,0 +1,137 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+  header {
+    background-image: url('./img/cabecalho1.png');
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative; 
+    height: 180px; 
+  }
+  
+  header h1 {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .sobre {
+    background-size: cover;
+    text-align:justify;
+    color: black;
+    padding: 10px 10%;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .services {
+    padding: 10px 10px;
+    text-align: center;
+  }
+  
+  .service {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .contact {
+    background-size: cover;
+    text-align:justify;
+    padding: 10px 10%;
+  }
+
+  /* Estilos de página de serviços */
+  .services1 {
+    padding: 50px 20px;
+  }
+  
+  .service1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .service1-info {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .service1-info h2,
+  .service1-info p {
+    text-align: justify;
+  }
+  
+  .service1-image {
+    flex: 1;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+  }
+  
+  .service1-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .service1 h2 {
+    margin-bottom: 10px;
+  }
+  
+  .service1 p {
+    margin-bottom: 20px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightslategray;
+  }
+  
+  label {
+    font-weight:lighter;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
